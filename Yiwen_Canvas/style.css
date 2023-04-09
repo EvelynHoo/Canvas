@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Quicksand&family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto&display=swap');
+
+/* canvas style */
+#canvas1{
+    position: absolute;
+    background-image: url(images/illu.webp);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+/* text style */
+  #text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    z-index: 20;
+    color: white;
+    transform: scale(1.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
